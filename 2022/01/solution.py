@@ -10,8 +10,8 @@ for element in liste:
         a = 0
         continue
     a = a + int(element)
+sol1 = (sorted(d, key=d.get)[-1])
 zsol = (sorted(d, key=d.get)[-3:])
-sol = 0
+sol2 = 0
 for e in zsol:
-    sol = sol + d[e]
-print(sol)
+    sol2 = sol2 + d[e]
