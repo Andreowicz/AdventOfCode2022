@@ -1,4 +1,4 @@
-f = open("input", "r")
+f = open(r"c:\Users\u-45886\AdventOfCode2022\2022\01\input.txt", "r")
 liste = f.read().split("\n")
 a = 0
 i = 1
