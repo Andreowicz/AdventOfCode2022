@@ -11,7 +11,9 @@ for element in liste:
         continue
     a = a + int(element)
 sol1 = (sorted(d, key=d.get)[-1])
+print(sol1)
 zsol = (sorted(d, key=d.get)[-3:])
 sol2 = 0
 for e in zsol:
     sol2 = sol2 + d[e]
+print(sol2)
